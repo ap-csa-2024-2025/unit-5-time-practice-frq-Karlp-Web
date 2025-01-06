@@ -8,8 +8,8 @@ public class Main
     // prompt the user for an initial time, and use the tick method
     // on that Time object.  Check that the resulting time is correct
     // after the tick
-    
-  
+    Time t1 = new Time(2,3,5); // 2:03 AM with 5 seconds
+    System.out.println(t1);
     // Uncomment these lines of code when you are ready to test your tick and add methods
     // testTick();
     // testAdd();

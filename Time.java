@@ -44,7 +44,7 @@ public class Time
   // TODO: Part E - complete the toString method; use the pad method as part of your solution
   public String toString()
   {
-    return null;
+    return pad(hours) + ":" pad(minutes) + ":" + pad(seconds);
   }
 
   // TODO: Part F - write the tick method
